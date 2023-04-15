@@ -7,13 +7,14 @@ import CountDown from "./components/countdown";
 const headerBgStyle = {
     backgroundImage: 'url(/images/bg.png)',
     backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover'
+    backgroundSize: 'cover',
+    backgroundPosition: 'center'
   };
 
 const Header = () => {
 
     return (
-        <div id="header" style={headerBgStyle} className="text-gray-800">
+        <div id="header" style={headerBgStyle} className="text-gray-800 w-screen">
             <HeaderText />
             <CountDown 
                 date={moment('2023-04-21T10:00:00').toDate()}

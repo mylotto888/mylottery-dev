@@ -1,7 +1,7 @@
 const MintBox = () => {
 
     return (
-        <div className="text-gray-900 mt-12 w-full flex justify-center">
+        <div className="text-gray-900 w-full flex justify-center">
             <div className="card w-96 rounded-md bg-white shadow-lg">
                 <figure className="flex items-center justify-center h-full py-10 border-2 border-red-500 bg-white">
                     <img src="/logo192.png" className="boarder border-red-500 w-3/5" alt="MyLotte" />
@@ -17,7 +17,9 @@ const MintBox = () => {
                             <span>🍀 0.01</span>
                         </div>
                         <div className="py-2 flex item-center">
-                            <button className="btn btn-sm text-red-500 bg-gray-300 border-none hover:text-red-600 hover:bg-gray-300">live</button>
+                            <button className="btn btn-sm bg-gray-300 border-none hover:bg-gray-300">
+                                <span className="text-red-500 hover:text-red-700 animate-pulse">live</span>
+                            </button>
                         </div>
                     </div>
                     <div className="w-full flex justify-center">

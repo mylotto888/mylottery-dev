@@ -11,10 +11,11 @@ const Mint = () => {
     };
 
     return (
-        <div style={BgStyle} className="bg-white">
+        <div style={BgStyle} className="bg-white h-screen">
             <NavBar />
-            ABC
-            <MintBox />
+            <div className="h-[82%] py-16">
+                <MintBox />
+            </div>
             <Footer />
         </div>
     )

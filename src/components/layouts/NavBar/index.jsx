@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const NavBar = () => {
 
     return (
@@ -15,9 +17,9 @@ const NavBar = () => {
                     <li><a href="#">Calendar</a></li>
                 </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">
+                <Link href={"/"} className="btn btn-ghost normal-case text-xl">
                     <img src="/logo192.png" className="w-24" />
-                </a>
+                </Link>
             </div>
             <div className="navbar-center hidden lg:flex px-5">
                 <ul className="menu menu-horizontal px-1">
