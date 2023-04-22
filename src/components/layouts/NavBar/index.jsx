@@ -18,7 +18,7 @@ const NavBar = () => {
                 </ul>
                 </div>
                 <Link href={"/"} className="btn btn-ghost normal-case text-xl">
-                    <img src="/logo192.png" className="w-24" />
+                    <img src="/logo192.png" className="w-40" />
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex px-5">
@@ -31,7 +31,7 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href="#" className="btn btn-sm border-none bg-red-500 hover:bg-red-600">Connect</a>
+                <a href="#" className="btn border-none bg-red-500 hover:bg-red-600">Connect</a>
             </div>
         </div>
     )

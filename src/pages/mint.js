@@ -7,7 +7,8 @@ const Mint = () => {
     const BgStyle = {
         backgroundImage: 'url(/images/bg.png)',
         backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover'
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
     };
 
     return (

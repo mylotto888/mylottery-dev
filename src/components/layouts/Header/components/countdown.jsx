@@ -27,25 +27,25 @@ const CountDown = ({date}) => {
         <div className="w-screen flex justify-center py-8 px-9">
             <div className="grid grid-flow-col gap-10 text-center auto-cols-max">
                 <div className="flex flex-col">
-                    <span className="countdown font-mono lg:text-7xl text-4xl">
+                    <span className="countdown lg:text-7xl text-4xl">
                     <span style={{"--value": countdown.days}}></span>
                     </span>
                     days
                 </div> 
                 <div className="flex flex-col">
-                    <span className="countdown font-mono lg:text-7xl text-4xl">
+                    <span className="countdown lg:text-7xl text-4xl">
                     <span style={{"--value": countdown.hours}}></span>
                     </span>
                     hours
                 </div> 
                 <div className="flex flex-col">
-                    <span className="countdown font-mono lg:text-7xl text-4xl">
+                    <span className="countdown lg:text-7xl text-4xl">
                     <span style={{"--value": countdown.minutes}}></span>
                     </span>
                     min
                 </div> 
                 <div className="flex flex-col">
-                    <span className="countdown font-mono lg:text-7xl text-4xl">
+                    <span className="countdown lg:text-7xl text-4xl">
                     <span style={{"--value": countdown.seconds}}></span>
                     </span>
                     sec

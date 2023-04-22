@@ -17,7 +17,7 @@ const Header = () => {
         <div id="header" style={headerBgStyle} className="text-gray-800 w-screen">
             <HeaderText />
             <CountDown 
-                date={moment('2023-04-21T10:00:00').toDate()}
+                date={moment('2023-04-29T10:00:00').toDate()}
             />
             <hr class="h-1 my-4 rounded-full bg-gradient-to-r from-red-500 to-pink-500 animate-pulse" />
         </div>
